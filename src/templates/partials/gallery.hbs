@@ -1,0 +1,18 @@
+<div id="portfolio">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            {{#each gallery}}
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="{{this}}">
+                        <img class="img-fluid" src="{{this}}" alt="" />
+                        <div class="portfolio-box-caption">
+                            <div class="text-white-50">
+                                <i class="fas fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

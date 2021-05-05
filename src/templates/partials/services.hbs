@@ -1,0 +1,41 @@
+<section class="page-section" id="services">
+    <div class="container">
+        <h2 class="text-center mt-0">{{services.title}}</h2>
+        <hr class="divider my-4" />
+        <div class="row">
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-home text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">{{services.home.title}}</h3>
+                    <ul class="list">
+                        {{#each services.home.feat}}
+                            <li class="text-muted mb-0">{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-umbrella-beach text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">{{services.places.title}}</h3>
+                    <ul class="list">
+                        {{#each services.places.feat}}
+                            <li class="text-muted mb-0">{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-calendar-alt text-primary mb-4"></i>
+                    <h3 class="h4 mb-2">{{services.prices.title}}</h3>
+                    <ul class="list">
+                        {{#each services.prices.feat}}
+                            <li class="text-muted mb-0">{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
