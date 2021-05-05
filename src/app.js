@@ -49,7 +49,7 @@ app.get('/', (req, res) => {
                 feat: [
                     'a 1km dal mare',
                     'a 5 minuti dall\'aeroporto',
-                    'vicina a luoghi turistici',
+                    'vicina a luoghi turistici,',
                     'lidi marittimi,',
                     'ristoranti e attività di',
                     'prodotti tipici pugliesi oltre a',
