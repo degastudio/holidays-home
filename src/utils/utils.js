@@ -5,12 +5,12 @@ module.exports = {
     getImages: () => {
         const picsPath = path.join(path.dirname(require.main.path), '/src/public/assets/img/fullsize');
 
-        const pics = [];
+        let pics = [];
 
         fs.readdirSync(picsPath).forEach((pic) => {
             pics.push(path.join('/assets/img/fullsize/', pic));
         });
-        
-        return pics;
+
+        return pics.sort();
     }
 }
